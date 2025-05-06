@@ -7,7 +7,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
   
     if (user === "Maryann" && pass === "250125") {
       localStorage.setItem("loggedIn", "true");
-      window.location.href = "informacion.html";
+      window.location.href = "Informacion.html";
     } else {
       alert("Usuario o contraseña incorrectos.");
     }
