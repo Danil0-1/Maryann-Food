@@ -1,0 +1,35 @@
+/* Estilos para el apartado de "Gracias" */
+#gracias {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  #gracias h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  #gracias img {
+    width: 120px; /* Tamaño ajustado para la imagen */
+    height: auto; /* Mantener las proporciones originales */
+    margin-top: 15px;
+    border-radius: 10px; /* Para darle un efecto más estilizado a la imagen */
+  }
+  
+  /* Estilos responsivos para móviles */
+  @media (max-width: 600px) {
+    #gracias h2 {
+      font-size: 2.5rem;
+      margin-top: 10px;
+    }
+  
+    #gracias img {
+      width: 230px; /* Más pequeña en pantallas móviles */
+      margin-top: -70px;
+    }
+  }
+  
