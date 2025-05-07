@@ -1,0 +1,157 @@
+#creditos {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+    border-radius: 8px;
+}
+
+#creditos .contenido h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#creditos .contenido p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.foto-personal {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px 0;
+}
+
+.instagram-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #E1306C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+}
+
+.instagram-btn:hover {
+    background-color: #bc2a8d;
+}
+
+.instagram-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+.whatsapp-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    #creditos .contenido h2 {
+        font-size: 1.5rem;
+    }
+
+    #creditos .contenido p {
+        font-size: 1.3rem;
+    }
+
+    .instagram-btn, .whatsapp-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .instagram-icon, .whatsapp-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .foto-personal {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+.instagram-btn, .whatsapp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #25D366; 
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 100%; 
+    max-width: 250px; 
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+.whatsapp-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+}
+
+
+.icono-pequeno {
+    width: 30px;  
+    height: 30px; 
+    margin-left: 8px; 
+}
+
+.instagram-btn {
+    background-color: #E4405F; 
+}
+
+.instagram-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+}
+
+.icono-pequeno {
+    width: 1.8em; 
+    height: auto; 
+    vertical-align: middle; 
+}
+
+.foto-personal {
+    width: 100%; 
+    height: auto;
+    max-width: 390px; 
+    border-radius: 10px; 
+    object-fit: cover;
+    margin-top: -5px;
+}
+
